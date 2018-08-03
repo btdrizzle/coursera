@@ -13,9 +13,9 @@ body {
 
 #logo-img {
     background: url('../chicken.png') no-repeat;
-    width: 511px;
-    height: 488px;
-    margin: 10px 15px 10px 0;
+    width: 250px;
+    height: 239px;
+    margin: 10px 40px 10px 0;
 }
 
 .navbar-brand {
