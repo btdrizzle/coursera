@@ -1,12 +1,12 @@
 body {
     font-size: 16px;
     color: #fff;
-    background-color: purple;
+    background-color: goldenrod;
     font-family: 'Poppins', sans-serif;
 }
 
 #header-nav {
-    background-color: goldenrod;
+    background-color: purple;
     border-radius: 0 0 015px 15px;
     border: 0;
 }
