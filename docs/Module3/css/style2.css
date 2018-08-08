@@ -1,26 +1,20 @@
 body {
     font-size: 16px;
-    color: #fff;
+    color: rgb(43, 42, 42);
     background-color: goldenrod;
     font-family: 'Poppins', sans-serif;
 }
 
 #header-nav {
     background-color: purple;
-    border-radius: 0 0 015px 15px;
+    border-radius: 0;
     border: 0;
 }
 
-#logo-img {
-    background: url('../chicken.png') no-repeat;
-    width: 250px;
-    height: 239px;
-    margin: 10px 40px 10px 0;
-}
 
 .navbar-brand {
     padding-top: 25px;
-    
+    padding-bottom: 25px;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -34,8 +28,36 @@ body {
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
+    text-shadow: 5px 5px 5px #222;
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
+}
+
+#nav-list a {
+    color:#fff;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: gray;
+}
+
+
+#topheader {
+    padding-top: 15px;
+}
+
+.chickendiv {
+    background-color: rgb(43, 42, 42);
+    color: #fff;
+    height: 1000px;
+}
+
+.chickendiv p {
+    padding: 15px 15px 15px 15px;
+}
+
+h2 {
+    padding-top: 15px;
 }
