@@ -61,3 +61,12 @@ body {
 h2 {
     padding-top: 15px;
 }
+
+@media only screen and (min-width: 768px) {
+    .navbar-toggler {
+        display: none;
+    }
+    #navbarNav {
+        display: none!important;
+    }
+}
